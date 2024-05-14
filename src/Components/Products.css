@@ -1,0 +1,140 @@
+.products-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0px; 
+    border: 1px solid green;
+  }
+  
+  .product {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    background-color: antiquewhite;
+  }
+  
+  .index{
+    display: flex;
+  }
+  
+  
+  
+  img {
+    width: 300px;
+    height: 200px; 
+    object-fit: cover;
+  }
+  
+  
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .home {
+    /* padding-top: 300px; */
+    text-align: center;
+    font-family: 'Pacifico';
+  }
+  
+  .show {
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .show img {
+    /* padding-top: 50px; */
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+  
+  }
+  
+  .showNavigation {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .showNavigation button {
+    margin: 0px 50px;
+    padding: 0px 30px;
+    
+  }
+  
+  
+  
+  .New form {
+    margin: auto;
+    width: 95%;
+  }
+  
+  input[type],
+  textarea {
+    display: block;
+    width: 90%;
+    margin: auto;
+  }
+  
+  input[type="checkbox"] {
+    margin: 0;
+    width: 15%;
+  }
+  
+  input[type="submit"] {
+    width: 30%;
+  }
+  
+  .centered-type {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .product-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .quantity-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 0px;
+    width: 90px;
+  }
+  
+  .quantity-button {
+    background-color: rgb(165, 93, 42);
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    height: 25px;
+  }
+  
+  .add-to-cart-button {
+    background-color: rgb(165, 93, 42);
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    padding: 6px 10px;
+  
+  }
+  .quantity-input {
+    border: none;
+    padding: 5px 0px;
+    width: 30px;
+    text-align: center; 
+    outline: none;
+    height: 17px;
+  }

@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+// DEPENDENCIES
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+//COMPONENTS
+import NavBar from "./Components/NavBar";
+
+//PAGES
+import Index from "./Pages/Index";
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          market place
-        </a>
-      </header>
+    <div className="market-place-app">
+      <Router>
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<Index />}></Route>
+        </Routes>
+      </Router>
     </div>
   );
 }
